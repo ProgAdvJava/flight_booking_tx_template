@@ -1,0 +1,35 @@
+insert into airport(name,iata) values ('Dubai International Airport', 'DXB');
+insert into airport(name,iata) values ('Helsinki Vantaa Airport','HEL');
+insert into airport(name,iata) values ('Guarulhos - Governador Andr̩ Franco Montoro International Airport','GRU');
+insert into airport(name,iata) values ('Heihe Airport','HEK');
+insert into airport(name,iata) values ('Indianapolis International Airport','IND');
+insert into airport(name,iata) values ('Cochin International Airport','COK');
+insert into airport(name,iata) values ('Gujrat Airport','GRT');
+insert into airport(name,iata) values ('Injune Airport','INJ');
+insert into airport(name,iata) values ('Abu Dhabi International Airport','AUH');
+insert into airport(name,iata) values ('Jalalabad Airport','JAA');
+insert into airport(name,iata) values ('Jackson Hole Airport','JAC');
+insert into airport(name,iata) values ('Zona da Mata Regional Airport','IZA');
+insert into airport(name,iata) values ('Jurien Bay Airport','JUR');
+insert into airport(name,iata) values ('Kon Airport','KCI');
+
+
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('DXB','HEL','2023-09-10 12:30','2023-09-10 18:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('HEK','GRU','2023-09-10 13:30','2023-09-10 16:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('IND','COK','2023-09-10 09:10','2023-09-10 18:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('DXB','GRT','2023-09-10 10:30','2023-09-10 14:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('INJ','AUH','2023-09-10 01:30','2023-09-10 10:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('DXB','COK','2023-09-10 09:20','2023-09-10 13:15', 735.15, 1);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('JAA','AUH','2023-09-11 12:30','2023-09-11 18:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('JAC','HEL','2023-09-11 11:25','2023-09-11 18:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('DXB','IZA','2023-09-11 12:30','2023-09-11 18:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('JAC','HEL','2023-09-12 12:30','2023-09-12 18:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('DXB','JUR','2023-09-12 02:30','2023-09-12 10:20', 135.50, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('KCI','HEL','2023-09-12 02:30','2023-09-12 11:15', 920.15, 1);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('DXB','HEL','2023-09-13 05:30','2023-09-13 12:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('HEL','DXB','2023-09-13 09:30','2023-09-13 13:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('AUH','HEL','2023-09-13 12:30','2023-09-13 18:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('DXB','IZA','2023-09-14 07:30','2023-09-14 11:15', 417.8, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('DXB','KCI','2023-09-14 10:30','2023-09-14 12:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('JAC','HEL','2023-09-14 11:30','2023-09-14 14:15', 735.15, 5);
+insert into flights(origin, destination, departure, arrival, fare, available_seats) values ('INJ','HEL','2023-09-14 12:30','2023-09-14 18:15', 735.15, 5);
